@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace LineComparison
 {
-    internal class Program
-    {
+   internal class Program
+   { 
         static void Main(string[] args)
         {
+            Comparison comparison = new Comparison(1, 2, 3, 4);
+            comparison.Calculate();
         }
-    }
+   }
 }
